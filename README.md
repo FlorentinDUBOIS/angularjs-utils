@@ -22,3 +22,4 @@ The [John Papa's angular design pattern](https://github.com/johnpapa/angular-sty
 - [angular-material](https://material.angularjs.org)
 - [angular-material-calendar](https://angular-material-calendar.bradb.net/)
 - [angular-sortable-view](https://github.com/kamilkp/angular-sortable-view)
+- [md-color-picker](https://github.com/brianpkelley/md-color-picker)
