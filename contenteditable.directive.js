@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('BNParibas')
+        .module('<your-module>')
         .directive('contenteditable', contenteditable);
 
     /* @ngInject */
@@ -32,14 +32,16 @@
             // save selection on blur and restore it on focus
             var position;
             $element.on('blur', function () {
-                var range = $window.getSelection().getRangeAt(0);
+                if ($window.getSelection().rangeCount) {
+                    var range = $window.getSelection().getRangeAt(0);
 
-                position = {
-                    startContainer: range.startContainer,
-                    startOffset: range.startOffset,
-                    endContainer: range.endContainer,
-                    endOffset: range.endOffset
-                };
+                    position = {
+                        startContainer: range.startContainer,
+                        startOffset: range.startOffset,
+                        endContainer: range.endContainer,
+                        endOffset: range.endOffset
+                    };
+                }
             });
 
             $element.on('focus', function () {
