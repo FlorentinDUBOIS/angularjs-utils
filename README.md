@@ -7,7 +7,7 @@
 ### contenteditable
 An angular directive to manage easily dom element with contenteditable works great on div implements some events (blur, change, keyup) to works and extends angular's ngModel directive.
 
-## Filter
+## Filters
 > List of filter, all filters are name with the rule <name-of-the-filter>.filter.js
 
 ## Design patterns
