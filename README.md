@@ -23,3 +23,4 @@
 - [angular-material-calendar](https://angular-material-calendar.bradb.net/)
 - [angular-sortable-view](https://github.com/kamilkp/angular-sortable-view)
 - [md-color-picker](https://github.com/brianpkelley/md-color-picker)
+- [ui-tinymce](https://github.com/angular-ui/ui-tinymce)
